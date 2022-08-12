@@ -1,0 +1,104 @@
+/* ------------------------------------- */
+/* Left Header */
+.left_header_Bg2.animation
+{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 0px rgba(0, 0, 0, 0.034);
+}
+
+.logo.animation
+{
+    width: 89px;
+    transition: 0.5s;
+}
+
+.textset1_1.animation
+{
+    line-height: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 19px;
+}
+
+.textset1.animation
+{
+    line-height: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 19px;
+}
+
+.header.animation
+{
+    height: 100px;
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.39)
+}
+
+/* ------------------------------------- */
+/* Right Header */
+
+.whatsapp_logo.animation
+{
+    width: 45px;
+    padding-right: 25px;
+}
+
+.whatsapp_logo.animation:hover
+{
+    width: 50px;
+}
+
+.whatsapp_logo.animation:active
+{
+    width: 45px;
+}
+
+.facebook_logo.animation
+{
+    width: 40px;
+    padding-right: 25px;
+}
+
+.facebook_logo.animation:hover
+{
+    width: 45px;
+}
+
+.facebook_logo.animation:active
+{
+    width: 40px;
+}
+
+.instagram_logo.animation
+{
+    width: 40px;
+    padding-right: 25px;
+}
+
+.instagram_logo.animation:hover
+{
+    width: 45px;
+}
+
+.instagram_logo.animation:active
+{
+    width: 40px;
+}
+
+.youtube_logo.animation
+{
+    width: 40px;
+    padding-right: 25px;
+}
+
+.youtube_logo.animation:hover
+{
+    width: 45px;
+}
+
+.youtube_logo.animation:active
+{
+    width: 40px;
+}
+
+/* ------------------------------------- */
