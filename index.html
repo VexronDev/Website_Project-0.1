@@ -16,7 +16,7 @@
         <header class="header">
             <left_header class="left_header">
                 <div data-aos="fade-right" data-aos-offset="0" style="display: flex;"><logo class="logo"> <input type="image" src=Thumbnails/Logo/Logo.png class="logo1_1" style="cursor:default"></logo></div>
-                <div data-aos="zoom-in" data-aos-offset="0"> <a href="./Home Page.html"><textset1 class="textset1_1"> Home </textset1></a></div>
+                <div data-aos="zoom-in" data-aos-offset="0"> <a id="Home_id"><textset1 class="textset1_1"> Home </textset1></a></div>
                 <div data-aos="zoom-in" data-aos-offset="0"> <a id="Classes_List"><textset2 class="textset1"> Classes </textset2></a></div>
                 <div data-aos="zoom-in" data-aos-offset="0"> <a id="Contacts"><textset3 class="textset1" href="./Contacts.html"> Contacts </textset3></a></div>
                 <div data-aos="zoom-in" data-aos-offset="0"> <a id="Location"><textset4 class="textset1" href="./Location.html"> Location </textset4></a></div>
@@ -296,6 +296,10 @@
 
             $('#Admission').click(function(){
                 $("html, body").animate({ scrollTop: "3170" });
+            });
+
+            $('#Home_id').click(function(){
+                $("html, body").animate({ scrollTop: "0" });
             });
         </script>
 
